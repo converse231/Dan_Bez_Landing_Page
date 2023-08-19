@@ -42,9 +42,9 @@
   display: flex;
   align-items: flex-start;
   justify-content: center;
-  border: 3px solid #f15025;
+  border: 3px solid #e92b2b;
   border-radius: 10px;
-  box-shadow: #f151254d 0px 2px 4px 0px, #f151254d 0px 2px 16px 0px;
+  box-shadow: #e92b2b 0px 2px 4px 0px, #e92b2b 0px 2px 16px 0px;
 }
 .--aboutimg-container img {
   display: block;
@@ -90,13 +90,13 @@
   font-weight: 400;
   line-height: normal;
   border-radius: 10px;
-  background: #f15025;
+  background: #e92b2b;
   padding: 0.5rem 1.5rem;
   text-decoration: none;
   padding: 15px 20px;
 }
 @media (max-width: 1025px) {
-  .--main-aboutcontent{
+  .--main-aboutcontent {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -105,7 +105,7 @@
 }
 
 @media (max-width: 768px) {
-  .--main-aboutcontent{
+  .--main-aboutcontent {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -114,14 +114,13 @@
   .--aboutimg-container img {
     max-width: 300px;
   }
-  .--aboutmeinfo h1{
+  .--aboutmeinfo h1 {
     font-size: 1.5rem;
   }
-  .--aboutmeinfo p{
+  .--aboutmeinfo p {
     font-size: 1.3rem;
   }
 }
-
 
 .--product-container {
   position: relative;
@@ -193,7 +192,7 @@
 .--product-card ion-icon {
   font-size: 0.8rem;
   text-align: center;
-  color: #f15025;
+  color: #e92b2b;
   margin-right: 3px;
 }
 
@@ -206,13 +205,13 @@
   font-weight: 400;
   line-height: normal;
   border-radius: 10px;
-  background: #f15025;
+  background: #e92b2b;
   text-decoration: none;
   padding: 15px 20px;
   margin-top: 1.5rem;
 }
 .--product-card:hover {
-  background-color: #f15025;
+  background-color: #e92b2b;
   color: #fff;
 }
 .--product-card:hover ion-icon {
@@ -224,21 +223,21 @@
 }
 .--product-card:hover a {
   background-color: #fff;
-  color: #f15025;
+  color: #e92b2b;
 }
 @media (max-width: 1025px) {
-.--product-header{
-    font-size: .7rem;
+  .--product-header {
+    font-size: 0.7rem;
   }
-.--products {
+  .--products {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
   }
-  .--product-card{
+  .--product-card {
     display: flex;
-    gap: .5rem;
+    gap: 0.5rem;
     width: 400px;
     height: 300px;
   }
@@ -249,7 +248,7 @@
   .--product-card span {
     font-size: 1.3rem;
   }
-  .--product-card p{
+  .--product-card p {
     font-size: 12px;
   }
 
@@ -258,9 +257,9 @@
   }
 }
 @media (max-width: 426px) {
-  .--product-card{
+  .--product-card {
     display: flex;
-    gap: .5rem;
+    gap: 0.5rem;
     width: 250px;
     height: 300px;
   }
